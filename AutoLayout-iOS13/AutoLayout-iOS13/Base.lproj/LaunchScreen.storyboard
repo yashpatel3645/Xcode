@@ -24,14 +24,23 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="By Yash Patel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d0F-3y-nuh">
+                                <rect key="frame" x="129.66666666666666" y="74" width="116" height="728"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="hDV-2r-SpX" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailing" id="0I1-Jf-iWz"/>
+                            <constraint firstItem="d0F-3y-nuh" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="32" id="4In-zt-kUW"/>
                             <constraint firstItem="hDV-2r-SpX" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="4Tb-di-vxN"/>
                             <constraint firstAttribute="bottom" secondItem="hDV-2r-SpX" secondAttribute="bottom" id="HRp-AK-ctY"/>
                             <constraint firstItem="8Pw-Wf-qFe" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Wcj-PU-EsC"/>
                             <constraint firstItem="hDV-2r-SpX" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="XgV-Wt-8UR"/>
+                            <constraint firstItem="d0F-3y-nuh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="jkL-YN-aiL"/>
+                            <constraint firstItem="d0F-3y-nuh" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="jpf-gi-vqJ"/>
                             <constraint firstItem="8Pw-Wf-qFe" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="tPE-wC-zKG"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
